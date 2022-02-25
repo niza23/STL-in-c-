@@ -24,7 +24,7 @@ int main()
         cout<<"elements are->"<<i<<endl;
     }
 
-    //cout<<"element at 1 index->"<<l.at(1)<<endl; not in list
+ 
 
     cout<<"element at front->"<<l.front()<<endl;
 
