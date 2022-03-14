@@ -15,7 +15,7 @@ int main(){
         cout<<"elements are->"<<i<<endl;
     }
 
-    cout<<"element at 1 index->"<<d.at(1)<<endl;
+    cout<<"element at 1st index->"<<d.at(1)<<endl;
 
     cout<<"element at front->"<<d.front()<<endl;
 
