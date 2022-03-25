@@ -33,7 +33,7 @@ int main()
     m[9]="Z";
 
 
-    auto it=m.find(4);  //print those element who is equal to  or greater than 4
+    auto it=m.find(4);  //print those elements which are equal to  or greater than 4
     for(auto i=it;i!=m.end();i++)
     {
         cout<<""<<(*i).first<<endl;
