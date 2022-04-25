@@ -16,13 +16,13 @@ int main()
 
     for(int i:s)
     {
-        cout<<"elements are->"<<i<<endl; //does not include repeating elements and store in sorted way
+        cout<<"elements are->"<<i<<endl; //does not include repeating elements and store in a sorted order
     }
     
     s.erase(s.begin());
     for(int i:s)
     {
-        cout<<"elements are->"<<i<<endl; //does not include repeating elements also store in sorted way
+        cout<<"elements are->"<<i<<endl; //does not include repeating elements also store in sorted order
     }
 cout<<"iterator"<<endl;
     set<int>::iterator it=s.begin();
